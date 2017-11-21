@@ -1,0 +1,32 @@
+	•	ls        list files and folders of current directory
+	•	ls -la        list directory showing hidden files as well
+	•	git init        initializing Git repository. You are using it when you want to start a new project.
+	•	git help        returns a page that explains us how to use Git, it provides basic usage and its commands
+	•	git help <command>        returns information for a specific command
+
+	•	git status        current status of your repository
+	•	git add <filename>        add specific file to be tracked from Git
+	•	git add .        add all files to be tracked from Git
+	•	git commit -m “<message>”         creates commit message
+	•	
+
+1. git init        makes git track folder
+2. type ls -la to see all folders 
+3. make whatever file you want to add to the repository 
+4. type git status to check status
+5.if untracked type git add . 
+6. check git status 
+
+how to commit : git commit -m”TEXT”
+check git log
+
+how to connect your GitHub to your git folder
+in the terminal in the wanted folder write git remote add origin GITURL 
+check this with git remote -v
+
+how to push to the remote repository 
+git push -u origin master
+git 
+if it does work instantly use :
+git pull --rebase origin master
+git push -u origin master
